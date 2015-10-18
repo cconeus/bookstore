@@ -1,0 +1,9 @@
+name = Site Configuration
+core = 7.x
+package = Features
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = site_name
+features[variable][] = theme_default
+features_exclude[dependencies][ctools] = ctools
+features_exclude[dependencies][strongarm] = strongarm
