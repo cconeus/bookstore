@@ -1,6 +1,8 @@
 name = Site Configuration
+description = Mod for exporting variables from DB to code.
 core = 7.x
 package = Features
+version = 7.x-1.1-beta
 features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:2
 features[variable][] = site_name
